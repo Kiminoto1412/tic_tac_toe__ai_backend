@@ -3,7 +3,7 @@ const cors = require("cors");
 
 require("dotenv").config();
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 const notFoundMiddleware = require("./middlewares/notFound");
 
 const aiRouter = require("./routes/aiRoutes");
